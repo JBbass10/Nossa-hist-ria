@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nossa História | João Otávio</title>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
+       :root {
+           --primary: #2c3e50;
+           --accent: #e67e22; /* Cor de pôr do sol/luau */
+           --bg: #fdfcfb;
+       }
+       body {
+           font-family: 'Montserrat', sans-serif;
+           background-color: var(--bg);
+           color: var(--primary);
+           margin: 0;
+           padding: 0;
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+       }
+       header {
+           height: 60vh;
+           width: 100%;
+           background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1350&q=80'); /* Imagem de praia */
+           background-size: cover;
+           background-position: center;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           text-align: center;
+           color: white;
+       }
+       h1 { font-family: 'Dancing Script', cursive; font-size: 3.5rem; margin: 0; }
+       .container { max-width: 800px; padding: 40px 20px; text-align: center; }
+       .player-section {
+           background: white;
+           padding: 30px;
+           border-radius: 20px;
+           box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+           margin-top: -80px;
+           position: relative;
+           z-index: 10;
+       }
+       audio { width: 100%; margin: 20px 0; }
+       .lyrics {
+           margin-top: 50px;
+           line-height: 1.8;
+           text-align: left;
+           background: #fff;
+           padding: 40px;
+           border-radius: 15px;
+       }
+       .year-tag {
+           color: var(--accent);
+           font-weight: 600;
+           font-size: 0.9rem;
+           display: block;
+           margin-top: 25px;
+           border-bottom: 1px solid #eee;
+       }
+       .chorus { font-style: italic; color: #555; padding-left: 20px; border-left: 3px solid var(--accent); margin: 20px 0; }
+       footer { margin: 50px 0; font-size: 0.8rem; color: #888; }
+</style>
+</head>
+<body>
+<header>
+<div>
+<h1>O Que o Coração Já Sabia</h1>
+<p>De 2013 para a eternidade</p>
+</div>
+</header>
+<div class="container">
+<div class="player-section">
+<h3>Nossa Música</h3>
+<p>Dê o play e reviva nossa jornada</p>
+<audio controls>
+<source src="musica.mp3" type="audio/mpeg">
+               Seu navegador não suporta áudio.
+</audio>
+</div>
+<div class="lyrics">
+<span class="year-tag">2013 | O Mistério do Luau</span>
+<p>Tudo começou em dois mil e treze<br>
+           Um luau, a lua cheia e o som do mar<br>
+           Você me olhou e disse, com toda a pureza:<br>
+           "Eu já sonhei contigo sem nunca te encontrar"</p>
+<span class="year-tag">A Calourada de História</span>
+<p>Mas o nó se apertou foi na calourada<br>
+           Do curso de História, onde a gente se viu<br>
+           Numa casa de praia, a alma lavada<br>
+           No brilho do beijo que o medo baniu.</p>
+<span class="year-tag">2015 | O Casamento</span>
+<p>Em dois mil e quinze, o altar e a jura<br>
+           O "sim" que mudou todo o nosso viver.</p>
+<span class="year-tag">2020 - 2022 | A Superação</span>
+<p>Mas veio a tormenta, a fase mais dura<br>
+           Entre vinte e vinte e vinte e dois, pra nos fazer crescer<br>
+           A crise tentou, mas o amor foi escudo<br>
+           E a gente aprendeu que era só resistir.</p>
+<div class="chorus">
+               E o amor transbordou, não coube em nós dois<br>
+               O plano de Deus não ficou pra depois<br>
+               Do sonho no luau à vida num abraço<br>
+               Você e eu, seguindo o mesmo passo.
+</div>
+<span class="year-tag">23/02/2024 | João Otávio</span>
+<p>O céu se abriu num novo cenário<br>
+           No dia vinte e três de fevereiro o sol brilhou<br>
+           Vinte e quatro trouxe o nosso João Otávio<br>
+           O milagre vivo que o Senhor nos mandou.</p>
+</div>
+<footer>
+           Com todo o meu amor.<br>
+           Feliz vida nova com o nosso João Otávio.
+</footer>
+</div>
+</body>
+</html>
